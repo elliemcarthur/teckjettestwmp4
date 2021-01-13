@@ -1,0 +1,169 @@
+/* ------------------------------------------------
+  Project:   ITsolve - IT Solution and Services Template
+  Author:    ThemeHt
+
+  NOTE: This is Color customizer stylesheet of template.
+------------------------------------------------ */
+
+/* ------------------------
+    General
+------------------------*/
+::-moz-selection { background: #0049d0; color: #fff; text-shadow: none; }
+::-moz-selection { background: #0049d0; color: #fff; text-shadow: none; }
+::selection { background: #0049d0; color: #fff; text-shadow: none; }
+
+/* ------------------------
+    Background Color
+------------------------*/
+.theme-bg,
+.btn.btn-theme,
+.btn.btn-outline:hover,
+.scroll-top a,
+.nav-item.dropdown .dropdown-menu a:before,
+.pagination > li.active .page-link, .page-link:hover, .page-link:focus,
+[data-overlay].theme-overlay:before,
+.featured-item.style-2:hover, .featured-item.style-2.active,
+.cases-images:before,
+.cases-item.style-4 .cases-images:before,
+.ht-progress-bar .progress .progress-bar,
+.team-member .team-hover,
+.widget .widget-tags li a:hover,
+.widget .widget-size ul li a:hover,
+.product-link a:hover,
+.product-categories .accordion .card .card-header a[aria-expanded="true"]:before,
+.custom-control-input:checked ~ .custom-control-label:before,
+.product-size input[type="radio"]:checked + label,
+.btn-delet,
+.footer h4:before,
+.footer-list li a:hover:before,
+.owl-carousel .owl-dots .owl-dot:hover span, .owl-carousel .owl-dots .owl-dot.active span,
+.owl-carousel.light-arrow .owl-nav button.owl-prev:hover, .owl-carousel.light-arrow .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover, .banner-slider.owl-carousel .owl-nav button.owl-prev:hover, .banner-slider.owl-carousel .owl-nav button.owl-next:hover
+{ background-color: #0049d0;}
+
+
+/* ----------------------------------
+    Background Color Second
+----------------------------------*/
+.theme-bg-2,
+.icon-link:hover,
+.featured-item .featured-icon:before,
+.post-date,
+.btn:before,
+.featured-item.style-2 .featured-desc a,
+.list-icon-2 li:after,
+.team-social-icon li a:hover,
+.cases-link:hover,
+.cases-item.style-2 .cases-desc .cases-icon,
+.cases-item.style-4 .cases-desc .cases-icon
+{background-color: #fb3b3c;}
+
+
+/* ----------------------------------
+    Background Color Gradient
+----------------------------------*/
+.cases-item.style-2 .cases-images:before {
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 55%);
+    background: linear-gradient(to bottom, rgba(0,73,208,0) 0%, rgba(0,73,208,0.9) 55%);}
+
+.cases-item.style-2:hover .cases-images::before {
+    background: -webkit-linear-gradient(top, rgba(0,73,208,0) 0%, rgba(0,73,208,0.9) 0%);
+    background: linear-gradient(to bottom, rgba(0,73,208,0) 0%, rgba(0,73,208,0.9) 0%);
+}
+
+/* ------------------------
+    Background Color Rgba
+------------------------*/
+.cases-desc small,
+.banner-slider.owl-carousel .owl-nav button.owl-prev, .banner-slider.owl-carousel .owl-nav button.owl-next{background-color: rgba(251,59,60,0.1)}
+
+
+/* ------------------------
+    Color
+------------------------*/
+a, button, input, 
+a:focus, a:hover,
+.text-theme,
+h1 span,
+.section-title h2 span,
+.dark-bg .title span.text-theme,
+.nav-item.dropdown .dropdown-menu a:hover,
+.header-2 .navbar-nav .nav-link:hover, .header-2 .navbar-nav .nav-item .nav-link.active,
+.header-3 .navbar-nav .nav-link:hover, .header-3 .navbar-nav .nav-item .nav-link.active,
+.header-4 .navbar-nav .nav-link:hover, .header-4 .navbar-nav .nav-item .nav-link.active,
+.breadcrumb-item.active, .breadcrumb-item a:hover,
+.scroll-top a:hover, .scroll-top a:focus,
+.contact-media a:hover,
+.counter-icon i,
+.list-icon li i,
+.featured-item .featured-icon,
+.team-member .team-description h5,
+.cases-icon,
+.cases-desc small,
+.recent-post-desc a:hover,
+.post .post-desc h4 a:hover,
+.media-icon li i,
+.media-icon li a:hover,
+.footer-list li a:hover,
+.comment-reply a:hover,
+.widget .widget-categories li a:hover,
+.widget .recent-post-desc a:hover,
+.video-btn .play-btn i,
+.team-cntct .team-icon li i,
+.product-link a i,
+.view-filter a.active,
+.accordion .card a[aria-expanded="true"], .accordion .card a:hover,
+.product-categories .accordion .card .card-header a[aria-expanded="true"],
+.tab .nav-tabs .nav-link.active, .tab .nav-tabs .nav-link:hover, .tab .nav-tabs.active > a:focus, .tab .nav-tabs > a:hover
+{color: #0049d0;}
+
+
+/* ------------------------
+    Color Second
+------------------------*/
+.text-theme2,
+.btn.btn-white:hover,
+.navbar-nav .nav-link:hover, .navbar-nav .nav-item .nav-link.active,
+.topbar-link i,
+.section-title h6,
+.ht-progress-bar .progress-parcent,
+.cases-item:hover .cases-icon,
+.video-btn .play-btn:hover i,
+.featured-item.style-3 .featured-icon,
+.team-member .team-description h5 a:hover
+{color: #fb3b3c;}
+
+
+.featured-item:hover .featured-icon, .featured-item.active .featured-icon{color: #ffffff !important}
+
+
+/* ------------------------
+    Border Color
+------------------------*/
+.btn.btn-outline:hover,
+.list-icon-2 li:before,
+.custom-control-input:checked ~ .custom-control-label:before,
+.pagination > li.active .page-link, .page-link:hover, .page-link:focus
+{border-color: #0049d0;}
+
+
+/* ------------------------
+    Border Bottom Color
+------------------------*/
+.tab .nav-tabs .nav-link.active, .tab .nav-tabs .nav-link:hover, .tab .nav-tabs.active > a:focus, .tab .nav-tabs > a:hover
+{border-bottom-color: #0049d0;}
+
+/* ------------------------
+    Border Top Color
+------------------------*/
+.clear-loader .loader-circle
+{border-top-color: #0049d0;}
+
+
+@media (max-width: 992px){
+.navbar-nav .nav-link:hover, .navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item.show .nav-link{background: rgba(251,59,60,0.1);}
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item.show .nav-link{color: #0049d0}
+}
